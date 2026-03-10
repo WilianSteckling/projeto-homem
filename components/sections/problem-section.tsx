@@ -77,20 +77,6 @@ export const ProblemSection = () => {
 
       <div className="absolute inset-0 w-full h-full lg:hidden bg-[radial-gradient(1px_1px_at_20%_30%,white,transparent),radial-gradient(1px_1px_at_60%_70%,white,transparent),radial-gradient(1px_1px_at_50%_50%,white,transparent)] bg-size-[200%_200%,180%_180%,250%_250%] opacity-30"></div>
 
-      {/* Header da Seção */}
-      <div className="absolute top-0 left-0 right-0 z-20 border-b border-white/20">
-        <div className="container mx-auto px-4 lg:px-8 py-3 lg:py-4 flex items-center justify-between">
-          <div className="flex items-center gap-2 lg:gap-4">
-            <div className="font-mono text-white text-xl lg:text-2xl font-bold tracking-widest italic -skew-x-12">UIMIX</div>
-            <div className="h-3 lg:h-4 w-px bg-white/40"></div>
-            <span className="text-white/60 text-[10px] font-mono">EST. 2025</span>
-          </div>
-          <div className="hidden lg:flex items-center gap-3 text-[10px] font-mono text-white/60">
-            <span>LAT: 37.7749°</span><div className="w-1 h-1 bg-white/40 rounded-full"></div><span>LONG: 122.4194°</span>
-          </div>
-        </div>
-      </div>
-
       {/* Cantos Decorativos */}
       <div className="absolute top-0 left-0 w-8 h-8 lg:w-12 lg:h-12 border-t-2 border-l-2 border-white/30 z-20" />
       <div className="absolute top-0 right-0 w-8 h-8 lg:w-12 lg:h-12 border-t-2 border-r-2 border-white/30 z-20" />

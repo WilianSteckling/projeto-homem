@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import { Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { MinimalistHero } from '@/components/ui/minimalist-hero'; 
 
 export const HeroSection = () => {
@@ -12,27 +11,17 @@ export const HeroSection = () => {
     { label: 'ABOUT US', href: '#' },
   ];
 
-  const socialLinks = [
-    { icon: Facebook, href: '#' },
-    { icon: Instagram, href: '#' },
-    { icon: Twitter, href: '#' },
-    { icon: Linkedin, href: '#' },
-  ];
-
   return (
     <MinimalistHero
-      logoText="mnmlst."
+      logoText="Projeto Homem"
       navLinks={navLinks}
-      mainText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultrices, justo vel tempus."
-      readMoreLink="#"
+      mainText="O corpo deve ser firme e estável, não desleixado, tanto em movimento quanto em repouso. Pois, assim como a mente se manifesta no rosto... assim também se deve exigir um certo vigor de todo o corpo. - Marco Aurélio"
       imageSrc="/hero-image.png"
       imageAlt="A portrait of a person in a black turtleneck, in profile."
       overlayText={{
         part1: 'less is',
         part2: 'more.',
       }}
-      socialLinks={socialLinks}
-      locationText="Arlington Heights, IL"
     />
   );
 };

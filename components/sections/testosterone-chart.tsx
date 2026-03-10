@@ -90,6 +90,7 @@ export const TestosteroneChart = () => {
             <p className="text-white/70 leading-relaxed">
               Os níveis de testosterona masculina estão despencando geração após geração. O que antes era considerado o padrão natural do corpo masculino, hoje é uma raridade biológica.
             </p>
+            <hr className="my-6 border-white/20" />
           </div>
 
           <div className="space-y-6">
