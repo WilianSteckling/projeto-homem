@@ -17,12 +17,11 @@ export function AuthorSection() {
           className="w-full lg:w-5/12 relative"
         >
           <div className="aspect-4/5 w-full relative border border-white/20 p-4">
-            <div className="w-full h-full relative overflow-hidden bg-zinc-900">
+            <div className="group w-full h-full relative overflow-hidden bg-zinc-900">
               <img
-                // ATENÇÃO: Ajuste a extensão para .jpg se a sua imagem for jpg
                 src="/nutri.jpeg" 
                 alt="Criadora do Método"
-                className="w-full h-full object-cover opacity-90 hover:opacity-100 hover:scale-105 transition-all duration-700"
+                className="w-full h-full object-cover grayscale opacity-70 transition-all duration-700 ease-out group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.onerror = null;

@@ -77,14 +77,14 @@ export const ProblemSection = () => {
 
       <div className="absolute inset-0 w-full h-full lg:hidden bg-[radial-gradient(1px_1px_at_20%_30%,white,transparent),radial-gradient(1px_1px_at_60%_70%,white,transparent),radial-gradient(1px_1px_at_50%_50%,white,transparent)] bg-size-[200%_200%,180%_180%,250%_250%] opacity-30"></div>
 
-      {/* Cantos Decorativos */}
+      {/* Cantos Decorativos (Mantidos para a estética técnica/minimalista) */}
       <div className="absolute top-0 left-0 w-8 h-8 lg:w-12 lg:h-12 border-t-2 border-l-2 border-white/30 z-20" />
       <div className="absolute top-0 right-0 w-8 h-8 lg:w-12 lg:h-12 border-t-2 border-r-2 border-white/30 z-20" />
       <div className="absolute left-0 bottom-12 w-8 h-8 lg:w-12 lg:h-12 border-b-2 border-l-2 border-white/30 z-20" />
       <div className="absolute right-0 bottom-12 w-8 h-8 lg:w-12 lg:h-12 border-b-2 border-r-2 border-white/30 z-20" />
 
       {/* Conteúdo Principal */}
-      <div className="relative z-10 flex min-h-screen items-center justify-end pt-16 lg:pt-0 mt-12">
+      <div className="relative z-10 flex min-h-screen items-center justify-end pt-16 lg:pt-0">
         <div className="w-full lg:w-1/2 px-6 lg:px-16 lg:pr-[10%]">
           <div className="max-w-lg relative lg:ml-auto">
             <div className="flex items-center gap-2 mb-3 opacity-60">
@@ -93,23 +93,11 @@ export const ProblemSection = () => {
               <div className="flex-1 h-px bg-white"></div>
             </div>
 
-            <h1 className="text-2xl lg:text-5xl font-bold text-white mb-4 leading-tight font-mono tracking-widest whitespace-nowrap lg:-ml-[5%]">
-              ENDLESS PURSUIT
-            </h1>
-
-            <div className="relative">
-              <p className="text-xs lg:text-base text-gray-300 mb-6 leading-relaxed font-mono opacity-80">
-                Like Sisyphus, we push forward — not despite the struggle, but because of it. Every iteration, every pixel, every line of code is our boulder.
+            <div className="space-y-4 mb-8 text-center lg:text-left">
+              <p className="text-xl md:text-2xl font-semibold text-white leading-relaxed">
+                "Nenhum cidadão tem o direito de ser um amador em matéria de treinamento físico. Que desgraça é para um homem envelhecer sem nunca ver a beleza e a força de que o seu corpo é capaz."
               </p>
-            </div>
-
-            <div className="flex flex-col lg:flex-row gap-3 lg:gap-4">
-              <button className="px-6 py-2.5 bg-transparent text-white font-mono text-sm border border-white hover:bg-white hover:text-black transition-all">
-                BEGIN THE CLIMB
-              </button>
-              <button className="px-6 py-2.5 bg-transparent text-white font-mono text-sm border border-white hover:bg-white hover:text-black transition-all">
-                EMBRACE THE JOURNEY
-              </button>
+              <p className="text-white/60 tracking-widest uppercase font-mono text-sm">— Sócrates</p>
             </div>
           </div>
         </div>

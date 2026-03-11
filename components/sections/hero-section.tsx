@@ -1,26 +1,25 @@
-'use client';
+﻿'use client';
 
 import React from 'react';
-import { MinimalistHero } from '@/components/ui/minimalist-hero'; 
+import { MinimalistHero } from '@/components/ui/minimalist-hero';
 
 export const HeroSection = () => {
   const navLinks = [
-    { label: 'HOME', href: '#' },
-    { label: 'PRODUCT', href: '#' },
-    { label: 'STORE', href: '#' },
-    { label: 'ABOUT US', href: '#' },
+    { label: 'O DECLÍNIO', href: '#' },
+    { label: 'O MÉTODO', href: '#' },
+    { label: 'GARANTIR VAGA', href: '#' },
   ];
 
   return (
     <MinimalistHero
-      logoText="Projeto Homem"
+      logoText="ARETÊ."
       navLinks={navLinks}
-      mainText="O corpo deve ser firme e estável, não desleixado, tanto em movimento quanto em repouso. Pois, assim como a mente se manifesta no rosto... assim também se deve exigir um certo vigor de todo o corpo. - Marco Aurélio"
+      mainText="O mundo moderno enfraqueceu nossa biologia. Resgate a força, a estética e a vitalidade dos antigos com um treinamento forjado nos princípios da excelência clássica."
       imageSrc="/hero-image.png"
-      imageAlt="A portrait of a person in a black turtleneck, in profile."
+      imageAlt="Homem com físico atlético representando o projeto"
       overlayText={{
-        part1: 'less is',
-        part2: 'more.',
+        part1: 'forje seu',
+        part2: 'legado.',
       }}
     />
   );
