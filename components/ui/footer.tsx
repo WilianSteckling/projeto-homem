@@ -2,7 +2,7 @@
 
 import React, { ReactNode } from 'react';
 import { motion } from 'framer-motion';
-import { Facebook, Frame, Instagram, Linkedin, Youtube } from 'lucide-react';
+import { Facebook, Frame, Instagram, Linkedin, Youtube, MessageCircle, Mail } from 'lucide-react';
 
 interface FooterLink {
   title: string;
@@ -17,39 +17,18 @@ interface FooterSection {
 
 const footerLinks: FooterSection[] = [
   {
-    label: 'Produto',
+    label: 'Contato',
     links: [
-      { title: 'Funcionalidades', href: '#features' },
-      { title: 'Preços', href: '#pricing' },
-      { title: 'Depoimentos', href: '#testimonials' },
-      { title: 'Integração', href: '/' },
+      { title: 'Whatsapp', href: '#', icon: MessageCircle },
+      { title: 'Email', href: '#', icon: Mail },
     ],
   },
-  {
-    label: 'Empresa',
-    links: [
-      { title: 'FAQs', href: '/faqs' },
-      { title: 'Sobre Nós', href: '/about' },
-      { title: 'Política de Privacidade', href: '/privacy' },
-      { title: 'Termos de Serviço', href: '/terms' },
-    ],
-  },
-  {
-    label: 'Recursos',
-    links: [
-      { title: 'Blog', href: '/blog' },
-      { title: 'Changelog', href: '/changelog' },
-      { title: 'Marca', href: '/brand' },
-      { title: 'Ajuda', href: '/help' },
-    ],
-  },
+ 
   {
     label: 'Redes Sociais',
     links: [
       { title: 'Facebook', href: '#', icon: Facebook },
       { title: 'Instagram', href: '#', icon: Instagram },
-      { title: 'Youtube', href: '#', icon: Youtube },
-      { title: 'LinkedIn', href: '#', icon: Linkedin },
     ],
   },
 ];
@@ -82,25 +61,25 @@ export function Footer() {
       {/* Brilho sutil no topo do footer */}
       <div className="absolute top-0 right-1/2 left-1/2 h-px w-1/3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/30 blur-md" />
 
-      <div className="grid w-full max-w-7xl gap-8 xl:grid-cols-3 xl:gap-8 z-10">
-        <AnimatedContainer className="space-y-4">
+      <div className="flex flex-col items-center text-center w-full max-w-4xl gap-12 z-10">
+        <AnimatedContainer className="flex flex-col items-center space-y-4">
           <Frame className="size-8 text-white/80" />
-          <p className="text-white/50 mt-8 text-sm md:mt-0 font-mono">
-            © {new Date().getFullYear()} UIMIX. All rights reserved.
+          <p className="text-white/50 text-sm font-mono">
+            © {new Date().getFullYear()} Todos os Direitos Reservados.
           </p>
         </AnimatedContainer>
 
-        <div className="mt-10 grid grid-cols-2 gap-8 md:grid-cols-4 xl:col-span-2 xl:mt-0">
+        <div className="flex flex-col sm:flex-row justify-center gap-12 sm:gap-24 w-full">
           {footerLinks.map((section, index) => (
             <AnimatedContainer key={section.label} delay={0.2 + index * 0.1}>
-              <div className="mb-10 md:mb-0">
+              <div>
                 <h3 className="text-xs font-bold tracking-wider text-white/90 uppercase mb-6">{section.label}</h3>
-                <ul className="space-y-3 text-sm text-white/50">
+                <ul className="space-y-3 text-sm text-white/50 flex flex-col items-center">
                   {section.links.map((link) => (
                     <li key={link.title}>
                       <a
                         href={link.href}
-                        className="hover:text-white inline-flex items-center transition-colors duration-300"
+                        className="hover:text-white inline-flex items-center justify-center transition-colors duration-300"
                       >
                         {link.icon && <link.icon className="mr-2 size-4" />}
                         {link.title}

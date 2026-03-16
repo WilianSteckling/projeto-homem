@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ARETE.",
+  title: "Projeto Homem - Método de Treinamento Físico",
   description: "Landing Page para o Método Homem, um programa de treinamento físico.",
 };
 

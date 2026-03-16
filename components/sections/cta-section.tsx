@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
   
 export function CtaSection() {
   return (
-    <section className="min-h-screen overflow-hidden relative py-20 bg-black text-white flex items-center">
+    <section id="oferta" className="min-h-screen overflow-hidden relative py-20 bg-black text-white flex items-center">
       <div className="mx-auto max-w-7xl relative z-20 px-6 w-full">
         <div className="relative">
           <p className="text-sm absolute -top-4 left-20 md:left-0 font-medium tracking-wider text-white/50 font-mono">
@@ -45,7 +45,7 @@ export function CtaSection() {
               {/* Informações da Oferta */}
               <div className="flex flex-col space-y-4 text-left justify-center h-full">
                 <h3 className="text-2xl md:text-3xl font-bold text-white tracking-wide">
-                  O MÉTODO
+                  O MÉTODO POSSUI
                 </h3>
                 <div className="font-mono text-xs md:text-sm text-white/60 space-y-1">
                   <p>/ PROTOCOLOS DE FORÇA</p>

@@ -32,7 +32,7 @@ const chartData = [
 
 export const TestosteroneChart = () => {
   return (
-    <section className="relative min-h-screen w-full bg-black py-24 px-6 md:px-12 flex items-center justify-center font-sans overflow-hidden">
+    <section id="declinio" className="relative min-h-screen w-full bg-black py-24 px-6 md:px-12 flex items-center justify-center font-sans overflow-hidden">
       
       <div className="absolute inset-0 z-0 opacity-10"
            style={{ backgroundImage: 'linear-gradient(#ffffff 1px, transparent 1px), linear-gradient(90deg, #ffffff 1px, transparent 1px)', backgroundSize: '40px 40px' }}

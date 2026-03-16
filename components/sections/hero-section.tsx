@@ -5,9 +5,9 @@ import { MinimalistHero } from '@/components/ui/minimalist-hero';
 
 export const HeroSection = () => {
   const navLinks = [
-    { label: 'O DECLÍNIO', href: '#' },
-    { label: 'O MÉTODO', href: '#' },
-    { label: 'GARANTIR VAGA', href: '#' },
+    { label: 'O DECLÍNIO', href: '#declinio' },
+    { label: 'O MÉTODO', href: '#metodo' },
+    { label: 'GARANTIR VAGA', href: '#oferta' },
   ];
 
   return (

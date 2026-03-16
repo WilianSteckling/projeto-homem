@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export function AuthorSection() {
   return (
-    <section className="relative w-full bg-black py-24 px-6 md:px-12 lg:px-24 flex items-center justify-center overflow-hidden">
+    <section id="metodo" className="relative w-full bg-black py-24 px-6 md:px-12 lg:px-24 flex items-center justify-center overflow-hidden">
       <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center gap-16 lg:gap-24 relative z-10">
         
         {/* Coluna da Imagem */}
