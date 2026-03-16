@@ -59,11 +59,11 @@ export function AuthorSection() {
           </p>
 
           <p className="text-white/70 leading-relaxed text-lg max-w-xl">
-            O <strong>Método Aretê</strong> é a união perfeita entre a ciência nutricional de ponta e a filosofia de treinamento inquebrável. Não prescrevo dietas genéricas; prescrevo a engenharia para recuperar a sua força natural.
+            O <strong>O método</strong> é a união perfeita entre a ciência nutricional de ponta e a filosofia de treinamento inquebrável. Não prescrevo dietas genéricas; prescrevo a engenharia para recuperar a sua força natural.
           </p>
 
           <div className="pt-8 border-t border-white/10 max-w-md">
-            <p className="font-mono text-sm text-white tracking-widest uppercase mb-1">Dra. [Nome da Nutri]</p>
+            <p className="font-mono text-sm text-white tracking-widest uppercase mb-1">Dra. Mariá Barboza</p>
             <p className="text-white/40 text-xs font-mono uppercase tracking-wider">Nutricionista & Criadora do Método</p>
           </div>
         </motion.div>

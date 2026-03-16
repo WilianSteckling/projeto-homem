@@ -31,7 +31,7 @@ export function CtaSection() {
               {/* Espaço para a Capa do E-book */}
               <div className="w-48 h-64 md:w-56 md:h-72 shrink-0 shadow-2xl border border-white/10 rounded-sm overflow-hidden bg-black relative">
                 <img
-                  src="/ebook-cover.png" // Troque pelo nome da sua capa depois
+                  src="/capaebook.png" 
                   alt="Capa do E-book"
                   className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity"
                   onError={(e) => {
@@ -45,7 +45,7 @@ export function CtaSection() {
               {/* Informações da Oferta */}
               <div className="flex flex-col space-y-4 text-left justify-center h-full">
                 <h3 className="text-2xl md:text-3xl font-bold text-white tracking-wide">
-                  O MÉTODO ARETÊ
+                  O MÉTODO
                 </h3>
                 <div className="font-mono text-xs md:text-sm text-white/60 space-y-1">
                   <p>/ PROTOCOLOS DE FORÇA</p>
@@ -58,7 +58,7 @@ export function CtaSection() {
                 
                 <div className="pt-6">
                   <Button className="w-full md:w-auto font-bold tracking-widest uppercase bg-white text-black hover:bg-gray-200">
-                    Garantir Meu Acesso
+                    QUERO MEU E-BOOK
                   </Button>
                 </div>
               </div>

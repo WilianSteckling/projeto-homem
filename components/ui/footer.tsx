@@ -17,34 +17,34 @@ interface FooterSection {
 
 const footerLinks: FooterSection[] = [
   {
-    label: 'Product',
+    label: 'Produto',
     links: [
-      { title: 'Features', href: '#features' },
-      { title: 'Pricing', href: '#pricing' },
-      { title: 'Testimonials', href: '#testimonials' },
-      { title: 'Integration', href: '/' },
+      { title: 'Funcionalidades', href: '#features' },
+      { title: 'Preços', href: '#pricing' },
+      { title: 'Depoimentos', href: '#testimonials' },
+      { title: 'Integração', href: '/' },
     ],
   },
   {
-    label: 'Company',
+    label: 'Empresa',
     links: [
       { title: 'FAQs', href: '/faqs' },
-      { title: 'About Us', href: '/about' },
-      { title: 'Privacy Policy', href: '/privacy' },
-      { title: 'Terms of Services', href: '/terms' },
+      { title: 'Sobre Nós', href: '/about' },
+      { title: 'Política de Privacidade', href: '/privacy' },
+      { title: 'Termos de Serviço', href: '/terms' },
     ],
   },
   {
-    label: 'Resources',
+    label: 'Recursos',
     links: [
       { title: 'Blog', href: '/blog' },
       { title: 'Changelog', href: '/changelog' },
-      { title: 'Brand', href: '/brand' },
-      { title: 'Help', href: '/help' },
+      { title: 'Marca', href: '/brand' },
+      { title: 'Ajuda', href: '/help' },
     ],
   },
   {
-    label: 'Social Links',
+    label: 'Redes Sociais',
     links: [
       { title: 'Facebook', href: '#', icon: Facebook },
       { title: 'Instagram', href: '#', icon: Instagram },
@@ -54,7 +54,7 @@ const footerLinks: FooterSection[] = [
   },
 ];
 
-// Atualizamos a animação para não depender do scroll (que estava bugando)
+
 function AnimatedContainer({
   delay = 0.1,
   className,
