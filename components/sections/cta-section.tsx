@@ -17,10 +17,8 @@ export function CtaSection() {
             O GUIA DEFINITIVO
           </h1>
           <p className="text-2xl md:text-4xl hidden xl:block absolute -bottom-8 right-24 font-thin tracking-[6px] text-white/80 uppercase">
-            TREINAMENTO CLÁSSICO
           </p>
           <p className="text-lg absolute xl:hidden -bottom-10 left-6 font-thin tracking-[4px] text-white/80 uppercase">
-            TREINAMENTO CLÁSSICO
           </p>
         </div>
 
@@ -48,13 +46,13 @@ export function CtaSection() {
                   O MÉTODO POSSUI
                 </h3>
                 <div className="font-mono text-xs md:text-sm text-white/60 space-y-1">
-                  <p>/ PROTOCOLOS DE FORÇA</p>
-                  <p>/ FILOSOFIA CLÁSSICA APLICADA</p>
-                  <p>/ RECUPERAÇÃO HORMONAL NATURAL</p>
+                  <p>/ PROTEÇÃO IMUNOLOGICA </p>
+                  <p>/ BONS HÁBITOS PARA FOCO, REDUÇAO DE GORDURA ABDOMINAL, TONUS MUSCULAR E MOTIVAÇÃO</p>
+                  <p>/ BONS HÁBITOS PARA SONO REVIGORANTE </p>
+                  <p>/ TOP 14 ALIMENTOS ESSENCIAIS PARA TESTOSTERONA </p>
+                  <p>/ ORIENTAÇÃO NUTRICIONAL COM OPÇÕES DIÁRIAS PARA MELHORAR A SUA ALIMENTAÇÃO </p>
+                  <p>/ SUGESTÃO DE SUPLEMENTAÇÃO PARA SAÚDE CEREBRAL, VITALIDADE E SAÚDE CAPILAR E ANSIEDADE </p>
                 </div>
-                <p className="text-sm md:text-base text-white/80 leading-relaxed mt-4">
-                  Um manual prático que une a sabedoria dos antigos com a ciência moderna do treinamento físico. Pare de perder tempo com treinos genéricos e comece a esculpir um corpo que reflete uma mente inabalável.
-                </p>
                 
                 <div className="pt-6">
                   <Button className="w-full md:w-auto font-bold tracking-widest uppercase bg-white text-black hover:bg-gray-200">

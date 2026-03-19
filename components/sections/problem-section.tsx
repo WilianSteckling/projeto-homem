@@ -95,7 +95,7 @@ export const ProblemSection = () => {
 
             <div className="space-y-4 mb-8 text-center lg:text-left">
               <p className="text-xl md:text-2xl font-semibold text-white leading-relaxed">
-                "Nenhum cidadão tem o direito de ser um amador em matéria de treinamento físico. Que desgraça é para um homem envelhecer sem nunca ver a beleza e a força de que o seu corpo é capaz."
+                "O homem sábio cuida de si antes que o tempo o obrigue. Que desgraça é para um homem envelhecer sem nunca ver a beleza e a força de que o seu corpo é capaz."
               </p>
               <p className="text-white/60 tracking-widest uppercase font-mono text-sm">— Sócrates</p>
             </div>

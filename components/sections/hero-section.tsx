@@ -12,10 +12,10 @@ export const HeroSection = () => {
 
   return (
     <MinimalistHero
-      logoText="MÉTODO HOMEM"
+      logoText="O FIM DO HOMEM CANSADO"
       navLinks={navLinks}
-      mainText="O mundo moderno enfraqueceu nossa biologia. Resgate a força, a estética e a vitalidade dos antigos com um treinamento forjado nos princípios da excelência clássica."
-      imageSrc="/hero-image.png" 
+      mainText="Transforme seu corpo sua mente e sua potencia masculina em poucas semanas. "
+      imageSrc="/hero-image2.png" 
       imageAlt="Homem com físico atlético representando o projeto"
       overlayText={{
         part1: 'forje seu',

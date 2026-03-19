@@ -87,7 +87,7 @@ export const TestosteroneChart = () => {
             <hr className="w-24 border-t-2 border-white/30 my-6" />
 
             <p className="text-white/70 leading-relaxed">
-              Os níveis de testosterona masculina estão despencando geração após geração. O que antes era considerado o padrão natural do corpo masculino, hoje é uma raridade biológica.
+              Os níveis de testosterona masculina estão despencando geração após geração. O que antes era considerado o padrão natural do corpo masculino, hoje é uma raridade biológica. Estudos mostram que o nível de testosterona no homem ocidental caiu 50% nas últimas décadas. A testosterona não se resume apenas a músculos e libido — homens com testosterona alta têm boas ações, boas decisões e foco mental. Depressão, gordura visceral, falta de libido e passividade são sinais de que seu corpo está pedindo ajuda. O declínio da testosterona é um sintoma de um problema maior: o ambiente moderno, cheio de toxinas, estresse crônico e sedentarismo, está corroendo a vitalidade masculina. Mas a boa notícia é que, com as estratégias certas, é possível reverter essa tendência e recuperar a força, a energia e a potência que são inerentes ao homem.
             </p>
           </div>
 
