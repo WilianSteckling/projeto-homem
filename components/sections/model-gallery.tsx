@@ -4,7 +4,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export function ModelGallerySection() {
-  const images = ['/img-1.jpeg', '/img-2.jpeg', '/img-3.jpeg', '/img-4.jpeg'];
+  const images = ['/img-1.png', '/img-2.png', '/img-3.png', '/img-4.png'];
 
   return (
     <section className="w-full bg-black border-y border-white/10 overflow-hidden">

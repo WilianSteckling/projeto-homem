@@ -20,7 +20,7 @@ export function AuthorSection() {
             <div className="group w-full h-full relative overflow-hidden bg-zinc-900">
               <img
                 src="/nutri.jpeg" 
-                alt="Criadora do Método"
+                alt="Nutricionista."
                 className="w-full h-full object-cover grayscale opacity-70 transition-all duration-700 ease-out group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
@@ -64,7 +64,7 @@ export function AuthorSection() {
 
           <div className="pt-8 border-t border-white/10 max-w-md">
             <p className="font-mono text-sm text-white tracking-widest uppercase mb-1">Dra. Mariá Barboza</p>
-            <p className="text-white/40 text-xs font-mono uppercase tracking-wider">Nutricionista & Criadora do Método</p>
+            <p className="text-white/40 text-xs font-mono uppercase tracking-wider">Nutricionista</p>
           </div>
         </motion.div>
 
