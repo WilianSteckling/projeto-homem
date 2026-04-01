@@ -46,17 +46,16 @@ export function CtaSection() {
                   O MÉTODO POSSUI
                 </h3>
                 <div className="font-mono text-xs md:text-sm text-white/60 space-y-1">
-                  <p>/ PROTEÇÃO IMUNOLOGICA </p>
-                  <p>/ BONS HÁBITOS PARA FOCO, REDUÇAO DE GORDURA ABDOMINAL, TONUS MUSCULAR E MOTIVAÇÃO</p>
-                  <p>/ BONS HÁBITOS PARA SONO REVIGORANTE </p>
-                  <p>/ TOP 14 ALIMENTOS ESSENCIAIS PARA TESTOSTERONA </p>
-                  <p>/ ORIENTAÇÃO NUTRICIONAL COM OPÇÕES DIÁRIAS PARA MELHORAR A SUA ALIMENTAÇÃO </p>
-                  <p>/ SUGESTÃO DE SUPLEMENTAÇÃO PARA SAÚDE CEREBRAL, VITALIDADE E SAÚDE CAPILAR E ANSIEDADE </p>
+                  <p>/ TOP 14 ALIMENTOS ESSENCIAIS PARA AUMENTAR A TESTOSTERONA </p>
+                  <p>/ FOCO NA REDUÇÃO DE GORDURA ABDOMINAL</p>
+                  <p>/ ESTRATÉGIAS PARA MELHORAR O FOCO MENTAL</p>
+                  <p>/ CARDÁPIO SUGESTIVO </p>
+                  <p>/ ROTINA ALIMENTAR PARA ALCANÇAR SUA MELHOR VERSÃO </p>
                 </div>
                 
                 <div className="pt-6">
                   <Button className="w-full md:w-auto font-bold tracking-widest uppercase bg-white text-black hover:bg-gray-200">
-                    QUERO MEU E-BOOK
+                    Comprar Guia
                   </Button>
                 </div>
               </div>

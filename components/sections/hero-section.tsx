@@ -14,8 +14,8 @@ export const HeroSection = () => {
     <MinimalistHero
       logoText="O FIM DO HOMEM CANSADO"
       navLinks={navLinks}
-      mainText="Transforme seu corpo sua mente e sua potência masculina em poucas semanas. "
-      imageSrc="/hero-image2.png" 
+      mainText="Homens com testosterona alta têm boas ações, boas decisões e foco mental."
+      imageSrc="/hero.png" 
       imageAlt="Homem com físico atlético representando o projeto"
       overlayText={{
         part1: 'forje seu',

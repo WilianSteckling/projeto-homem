@@ -19,16 +19,14 @@ const footerLinks: FooterSection[] = [
   {
     label: 'Contato',
     links: [
-      { title: 'Whatsapp', href: '#', icon: MessageCircle },
-      { title: 'Email', href: '#', icon: Mail },
+      { title: 'Whatsapp', href: 'https://wa.me/5547999998305', icon: MessageCircle },
     ],
   },
  
   {
-    label: 'Redes Sociais',
+    label: 'Redes Social',
     links: [
-      { title: 'Facebook', href: '#', icon: Facebook },
-      { title: 'Instagram', href: '#', icon: Instagram },
+      { title: 'Instagram', href: 'https://www.instagram.com/nutricionistamariahbarboza/', icon: Instagram },
     ],
   },
 ];
@@ -58,7 +56,6 @@ function AnimatedContainer({
 export function Footer() {
   return (
     <footer className="relative z-50 w-full flex flex-col items-center justify-center border-t border-white/10 bg-zinc-950 px-6 py-12 lg:py-16 text-white overflow-hidden">
-      {/* Brilho sutil no topo do footer */}
       <div className="absolute top-0 right-1/2 left-1/2 h-px w-1/3 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/30 blur-md" />
 
       <div className="flex flex-col items-center text-center w-full max-w-4xl gap-12 z-10">

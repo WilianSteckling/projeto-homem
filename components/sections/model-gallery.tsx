@@ -4,11 +4,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export function ModelGallerySection() {
-  const images = ['/img-1.png', '/img-2.png', '/img-3.png', '/img-4.png'];
+  const images = ['/img-2.png', '/img-3.png'];
 
   return (
     <section className="w-full bg-black border-y border-white/10 overflow-hidden">
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
+      <div className="mx-auto w-full max-w-5xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 divide-y sm:divide-y-0 sm:divide-x divide-white/10">
         {images.map((src, index) => (
           <motion.div
             key={index}
